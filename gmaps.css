@@ -1,0 +1,129 @@
+body {
+  background: #e7bb91;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+
+  background: url("cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.input {
+  width: 70%;
+}
+
+@media only screen and (min-width: 800px) {
+  [class*="input"] {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  [class*="input"] {
+    width: 30%;
+  }
+}
+
+.custom-select {
+  height: 60px;
+  font-size: 25px;
+}
+
+strong {
+  font-weight: 500;
+}
+
+#result {
+  font-size: 30px;
+  font-weight: 400;
+  color: #efff01;
+}
+
+#distance {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+#rest {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(216 255 0);
+}
+
+#result span {
+  color: rgb(20, 109, 97);
+  font-weight: 600;
+}
+
+#result span {
+  color: rgb(240 255 12);
+  font-weight: 600;
+}
+
+.form-control {
+  height: 60px;
+  font-size: 25px;
+}
+
+h1 {
+  font-weight: 20px;
+  color: white;
+  background-color: black;
+}
+
+.btn {
+  border-width: 2px;
+  font-weight: 600;
+}
+
+span {
+  font-size: 23px; /* 20px */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 2000px;
+  }
+}
+
+.text-center {
+  text-align: center !important;
+  padding: 10px;
+  justify-content: center;
+}
+
+.form-check {
+  position: relative;
+  display: block;
+  padding-left: 1.25rem;
+  padding-top: 15px;
+}
+
+.spanny {
+  color: white;
+  font-size: 23px;
+}
+
+.but1 {
+  color: white;
+}
+
+.classy {
+  margin-top: 2px;
+}
